@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  justify-content: space-between;
+}
+.home {
+  width: 23%;
+  margin-top: 20px;
+}
+.home p {
+  background-color: black;
+  width: 150px;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+}
+.home img {
+  max-width: 100%;
+  margin: auto;
+}
+.sec-two {
+  margin-top: 20px;
+}
+.text {
+  width: 100%;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.text h1 {
+  margin-bottom: 20px;
+}
+
+.card-con {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.card img {
+  margin: auto;
+  width: 400px;
+}
+.card {
+  width: 305px;
+  height: auto;
+}
+.card h1 {
+  font-size: 40px;
+}
+.card p {
+  font-size: 25px;
+}
+.card h4 {
+  font-size: 20px;
+}
+.card button {
+  width: 400px;
+  height: 40px;
+  font-size: 40px;
+  border: none;
+  margin-top: 20px;
+}
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 661px) {
+    .home {
+      width: 100%;
+    }
+    .container {
+        width: 100%;
+      }
+  }
+  @media screen and (min-width: 661px) and (max-width: 992px) {
+    .home {
+      width: 23%;
+    }
+    .container {
+        width: 23%;
+      }
+  }
