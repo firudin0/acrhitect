@@ -28,6 +28,13 @@
 }
 .sec-two {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  justify-content: space-between;
+
 }
 .text {
   width: 100%;
@@ -50,6 +57,7 @@
 .card img {
   margin: auto;
   width: 400px;
+  margin-top: 20px;
 }
 .card {
   width: 305px;
